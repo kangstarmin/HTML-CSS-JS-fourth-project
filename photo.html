@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>포토 앨범</title>
+  <link href="photo_style.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <div class="app">
+      <button id="prev" class="prev">
+        <i class="fa-solid fa-circle-left"></i>
+      </button>
+      <div id="photo" class="photo"></div>
+      <button id="next" class="next">
+        <i class="fa-solid fa-circle-right"></i>
+      </button>
+    </div>
+  </div>
+
+  <div id ="beginning" class="no-photo beginning">
+    <h1>멍멍버튼을 누르면 2초 후 강아지 사진이 랜덤으로 나옵니다!</h1>
+    <div class="dog-photo"></div>
+    <div style="height: 55px;">
+      <button id="call-btn" class="call-btn">멍멍</button>
+    </div>
+  </div>
+
+  <script src="./photo_script.js"></script>
+  <script src="https://kit.fontawesome.com/d3363c681f.js" crossorigin="anonymous"></script>
+</body>
+</html>
